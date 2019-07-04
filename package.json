@@ -1,0 +1,21 @@
+{
+  "name": "mochatest",
+  "version": "0.0.1",
+  "description": "task 4620",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "test": "NODE_ENV=development node_modules/mocha/bin/_mocha --timeout 20000"
+  },
+  "author": "roberto.silva@camerite.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  }
+}

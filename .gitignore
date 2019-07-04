@@ -1,0 +1,32 @@
+
+# Node and related ecosystem
+# ==========================
+.sass-cache/
+node_modules/*
+coverage/
+.nyc_output/
+
+
+# Sublime editor
+# ==============
+.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse project files
+# =====================
+.project
+.settings/
+.*.md.html
+.metadata
+*~.nib
+local.properties
+
+# IntelliJ
+# ========
+*.iml
+
+# VS Code
+# =======
+.vscode/
+jsconfig.json
