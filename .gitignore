@@ -2,7 +2,7 @@
 # Node and related ecosystem
 # ==========================
 .sass-cache/
-node_modules/*
+node_modules/
 coverage/
 .nyc_output/
 
